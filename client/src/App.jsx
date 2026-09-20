@@ -228,6 +228,24 @@ function App() {
               </div>
             ))}
           </div>
+
+          {/* Product Hunt Featured Badge */}
+          <div className="mt-6 flex justify-center">
+            <a
+              href="https://www.producthunt.com/products/shipcheck-4?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-shipcheck-4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block transition-transform hover:scale-105 active:scale-95"
+            >
+              <img
+                alt="Shipcheck - Pre-flight security scanner for vibe-coded apps | Product Hunt"
+                width="250"
+                height="54"
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1256462&theme=dark&t=1789927837516"
+                className="h-11 w-auto rounded-xl shadow-lg shadow-black/50 border border-slate-800/60 hover:border-indigo-500/40 transition-colors"
+              />
+            </a>
+          </div>
         </div>
 
         {/* Input Bar */}
